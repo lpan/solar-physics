@@ -1,0 +1,31 @@
+{
+  "name": "statics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base src/public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpan/statics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpan/statics/issues"
+  },
+  "homepage": "https://github.com/lpan/statics#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "three": "^0.82.1"
+  }
+}
